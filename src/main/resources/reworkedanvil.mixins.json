@@ -8,7 +8,9 @@
     "defaultRequire": 1
   },
   "mixins": [
-    "ui.AnvilMenuMixin",
+    "ui.AnvilMenuMixin"
+  ],
+  "client": [
     "ui.AnvilScreenMixin"
   ]
 }

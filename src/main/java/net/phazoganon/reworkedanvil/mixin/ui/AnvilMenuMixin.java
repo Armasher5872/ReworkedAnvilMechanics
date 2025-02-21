@@ -20,6 +20,6 @@ public class AnvilMenuMixin {
     }
     @Inject(method = "calculateIncreasedRepairCost", at = @At(value = "RETURN"), cancellable = true)
     private static void calculateIncreasedRepairCost(int oldRepairCost, CallbackInfoReturnable<Integer> cir) {
-        cir.setReturnValue(oldRepairCost);
+        cir.setReturnValue(0);
     }
 }
