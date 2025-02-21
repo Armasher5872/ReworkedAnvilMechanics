@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "compatibilityLevel": "JAVA_21",
+  "package": "net.phazoganon.reworkedanvil.mixin",
+  "refmap": "mixins.reworkedanvil.refmap.json",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "ui.AnvilMenuMixin",
+    "ui.AnvilScreenMixin"
+  ]
+}
