@@ -3,6 +3,7 @@ package net.phazoganon.reworkedanvil.event;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.neoforge.event.AnvilUpdateEvent;
 import net.neoforged.neoforge.event.entity.player.AnvilRepairEvent;
 import net.phazoganon.reworkedanvil.ReworkedAnvil;
 
